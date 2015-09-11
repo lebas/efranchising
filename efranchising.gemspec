@@ -53,10 +53,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'twitter_oauth', '~> 0.4.4'
   spec.add_dependency 'wicked_pdf', '~> 0.11.0'
   spec.add_dependency 'wkhtmltopdf-binary'
-  spec.add_dependency "bcrypt-ruby", :require => "bcrypt"
+  spec.add_dependency "bcrypt-ruby"
   spec.add_dependency 'devise'
   spec.add_dependency 'devise-encryptable'
-  spec.add_dependency 'userstamp', :git => 'git@github.com:theepan/userstamp.git'
   spec.add_dependency 'omniauth-facebook'
   spec.add_dependency 'delayed_job_active_record'
   spec.add_dependency 'brazilian-rails', '~> 3.3.0'
@@ -73,5 +72,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activeadmin', '~> 1.0.0.pre1'
   spec.add_dependency 'jquery-ui-rails', '~> 5.0.5'
   spec.add_dependency 'kaminari'
-  spec.add_dependency 'icheck-rails', :git => 'https://github.com/cubus/icheck-rails.git'
+
+  #spec.add_dependency 'userstamp'
+  #spec.add_dependency 'icheck-rails'
+
 end

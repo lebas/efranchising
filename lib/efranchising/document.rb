@@ -1,5 +1,5 @@
 # encoding: utf-8
-module Helper
+module Document
 	 BR_STATES = ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO']
   METHODS_PAYMENT = ['Boleto', 'Transferência Eletrônica', 'Cartão de Crédito', 'Cartão de Débito', 'Vale Refeição', 'Créditos']
   MONTH = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro',  'Outubro', 'Novembro', 'Dezembro']

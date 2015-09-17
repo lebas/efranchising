@@ -2,7 +2,7 @@ require "efranchising/version"
 
 module Efranchising
 
-	autoload :Helper, 	'efranchising/helper'
+	autoload :Document, 'efranchising/document'
 	autoload :Cielo, 		'efranchising/cielo'
 
   class Shop
